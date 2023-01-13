@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    @include('header')
+    @include('guest.partials.header')
 
     <main>
         @yield('content')
     </main>
 
-    @include('footer')
+    @include('guest.partials.footer')
 </body>
 </html>
